@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #6c757d;
+}
+
+a {
+    transition: all 0.3s ease;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.navbar-nav {
+    font-weight: 600;
+    
+}
+
+.btn {
+    position: relative;
+    padding: 13.5px 36px;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.banner-image {
+    /* background-image: url(pics/galaxy-3608029_1920.jpg); */
+    /* background-color: rgb(255, 199, 126); */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #999;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
+
+@media(max-width:768px) {
+    .banner-image {
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(img/portrait-photo.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+}
+
+/* Adjusted logo size */
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
